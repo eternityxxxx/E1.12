@@ -1,8 +1,6 @@
 # E1.12
 [![Travis][build-badge]][build]
-
 [build-badge]: https://img.shields.io/travis/ eternityxxxx / E!.2 /master.png?style=flat-square
-
 [build]: https://travis-ci.org/ eternityxxxx / E1.2
 
 ##### ля запуска тестов:
