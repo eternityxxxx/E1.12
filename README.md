@@ -3,12 +3,12 @@
 
 ##### ля запуска тестов:
 ```
-pytest tests.py
+pytest
 ```
 
 ##### Для подсчета покрытия кода тестами:
 ```
-coverage run -m pytest tests.py
+coverage run -m pytest
 ```
 ```
 coverage report -m
