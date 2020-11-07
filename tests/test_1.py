@@ -1,4 +1,4 @@
-from app import hangman
+import hangman
 import pytest
 
 
