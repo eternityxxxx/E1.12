@@ -26,6 +26,7 @@ def test_check_user_name(data, excepted):
     assert hangman.check_user_name(data) == excepted
 
 
+@pytest.mark.skip('Данный тест требует ввода данных с консоли')
 def test_main_menu_interface_success():
     data = [
         '#######################################################',
@@ -50,6 +51,7 @@ def test_main_menu_interface_fail():
         assert hangman.main_menu_interface(data, user_name)
 
 
+@pytest.mark.skip('Данный тест требует ввода данных с консоли')
 def test_main_menu_choise():
     user_name = 'Joe'
     assert hangman.main_menu_choise(user_name) is not None
@@ -84,6 +86,7 @@ def test_view_game_status_fail():
         assert hangman.view_game_status('', [], [], 1)
 
 
+@pytest.mark.skip('Данный тест требует ввода данных с консоли')
 @pytest.mark.parametrize('word,missed,hitted,attempts', [
     ('SKILLFACTORY', ['U', 'P'], ['S', 'Y', 'F'], 6),
     ('UNITTEST', ['P'], [], 1),
