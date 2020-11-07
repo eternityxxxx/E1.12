@@ -7,12 +7,12 @@
 
 ##### ля запуска тестов:
 ```
-pytest -s tests.py
+pytest tests.py
 ```
 
 ##### Для подсчета покрытия кода тестами:
 ```
-coverage run -m pytest -s tests.py
+coverage run -m pytest tests.py
 ```
 ```
 coverage report -m
